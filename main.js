@@ -19,16 +19,19 @@ var receiver = dmxnet.newReceiver({
 //Create new lifx instance
 const lifx = new Lifx();
 //Authenticate Lifx Token
-lifx.init({ appToken: 'ce8f380d080e77059fac26c5b8a5c5dd7037944f18e3d0477ee209d7bf13105d' });
+lifx.init({ appToken: 'ENTER KEY HERE' });
 
-let light1name = 'Wall Light'
-let light2name = 'Bed Light'
+//ENTER NAME OF LIGHTS HERE
+let light1name = ''
+let light2name = ''
 let light3name = ''
 let light4name = ''
 let light5name = ''
 let light6name = ''
 let light7name = ''
 let light8name = ''
+
+//Initialize variables
 let lastRequest;
 let fixture1;
 let fixture2;
@@ -40,7 +43,7 @@ let fixture7;
 let fixture8;
 
 
-// Recieve DMX Data
+// Recieve Art-Net (DMX) Data
 receiver.on('data', async (data) => {
   lastRequest = data;
 });
@@ -56,15 +59,15 @@ async function processLastRequest() {
     const lights = await lifx.get.all();
     //console.log(lights)
 
-    //Find the light you are searching for
+    //Find the Light (UN-COMMENT TO ADD MORE LIGHTS)
     //Fixture 1
     const bulb1 = await lights.find(function (light) {
       return light.label === light1name;
     });
-    //Fixture 2
-    const bulb2 = await lights.find(function (light) {
-      return light.label === light2name;
-    });
+    // //Fixture 2
+    // const bulb2 = await lights.find(function (light) {
+    //   return light.label === light2name;
+    // });
     // //Fixture 3
     // const bulb3 = await lights.find(function (light) {
     //   return light.label === light3name;
@@ -89,8 +92,10 @@ async function processLastRequest() {
     // const bulb8 = await lights.find(function (light) {
     //   return light.label === light8name;
     // });
+
+    //UN_COMMENT TO ADD MORE LIGHTS
     fixture1 = bulb1;
-    fixture2 = bulb2;
+    // fixture2 = bulb2;
     // fixture3 = bulb3;
     // fixture4 = bulb4;
     // fixture5 = bulb5;
@@ -131,14 +136,15 @@ async function processLastRequest() {
   var chan23 = data[22]
   var chan24 = data[23]
 
+  //Change RGB Values (UN-COMMENT TO ADD MORE LIGHTS)
   //Fixture 1
   lifx.color.light(fixture1.id, {
     rgb: `${chan1},${chan2},${chan3}`
   });
-  //Fixture 2
-  lifx.color.light(fixture2.id, {
-    rgb: `${chan4},${chan5},${chan6}`
-  });
+  // //Fixture 2
+  // lifx.color.light(fixture2.id, {
+  //   rgb: `${chan4},${chan5},${chan6}`
+  // });
   // //Fixture 3
   // await lifx.color.light(fixture3.id, {
   //   rgb: `${chan7},${chan8},${chan9}`
