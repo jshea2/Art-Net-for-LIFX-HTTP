@@ -96,6 +96,7 @@
 #
 ## Notes:
 
+- If you un-comment light fixtures that aren't available, the code will still work, but you will get errors  
 - This Node file processes Art-Net data only every 1000ms (or 1 second) which seems to work effectively. However, you can adjust the interval:
   ```javascript
     let myInterval = setInterval(processLastRequest, 1000);
