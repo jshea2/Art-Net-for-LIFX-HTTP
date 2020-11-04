@@ -107,7 +107,9 @@
 - The name's of each available lightbulb on the account will be logged to the console when you first run the Node file. To see this list, scroll to the top of the console. This can be used for inputting strings to '***light1name***' variables
 
     (This might be hard to see since Art-Net data is constantly coming into the console)
-- See QLab file "QLabLifxArt-Netdemo" for a DEMO
+- See QLab file "QLabLifxArt-Netdemo" for a DEMO 
+
+    (Only up to **16 channels** (5 Lightbulbs) on Free, Pro Audio, and Pro Video License's)
 
 #
 
