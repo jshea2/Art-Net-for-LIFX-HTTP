@@ -57,6 +57,7 @@ async function processLastRequest() {
   if (!fixture1) {
     //Get All Lights
     const lights = await lifx.get.all();
+    console.log('Available LIFX Lights:')
     lights.forEach(i => console.log(i.label))
 
     //Find the Light (UN-COMMENT TO ADD MORE LIGHTS)
@@ -146,11 +147,11 @@ async function processLastRequest() {
   //   rgb: `${chan4},${chan5},${chan6}`
   // });
   // //Fixture 3
-  // await lifx.color.light(fixture3.id, {
+  // lifx.color.light(fixture3.id, {
   //   rgb: `${chan7},${chan8},${chan9}`
   // });
   // //Fixture 4
-  // await lifx.color.light(fixture4.id, {
+  // lifx.color.light(fixture4.id, {
   //   rgb: `${chan10},${chan11},${chan12}`
   // });
   // //Fixture 5
@@ -173,10 +174,10 @@ async function processLastRequest() {
   console.log(data)
 }
 
-function resetRequestInterval(intervalMs) {
-  clearInterval(myInterval);
-  myInterval = setInterval(processLastRequest, intervalMs);
-}
+// function resetRequestInterval(intervalMs) {
+//   clearInterval(myInterval);
+//   myInterval = setInterval(processLastRequest, intervalMs);
+// }
 
 let myInterval = setInterval(processLastRequest, 1000);
 // setTimeout(() => { resetRequestInterval(10000); }, 10000);

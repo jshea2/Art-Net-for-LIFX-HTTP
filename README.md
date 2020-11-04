@@ -13,7 +13,7 @@
 ## Art-Net Software Setup:
 - Set Art-Net Output to match the 'main.js' file or vice versa 
 
-     *'main.j's is defaulted to* ***Universe: 0, Net: 0, Subnet: 0***
+     *'main.js' is defaulted to* ***Universe: 0, Net: 0, Subnet: 0***
 - Patch Each LIFX Lightbulb as a 3-Channel RGB Fixture
   
   *Example:*
@@ -97,13 +97,13 @@
 ## Notes:
 
 - If you un-comment light fixtures that aren't available, the code will still work, but you will get errors  
-- This Node file processes Art-Net data only every 1000ms (or 1 second) which seems to work effectively. However, you can adjust the interval:
+- This Node file processes Art-Net data only every 1000ms (or 1 second) which seems to work effectively. It seems if there is a big delay you might have to go up to 2500ms to get the lights to all have similar timing. You can adjust the interval, save and re-run the node file:
   ```javascript
     let myInterval = setInterval(processLastRequest, 1000);
     ```
 - This Node file only works with LIFX Color Bulbs
 - When you first run the Node file expect an initial longer latency, because Node has to 'get' and 'find' each lightbulb's 'id'. It should be faster after that, because the 'id' values are stored from then on
-- Since these lightbulbs are connected via WiFi expect a little latency. It's about the same as controlling it from the LIFX App (my experience has been 1.5 seconds)
+- Since these lightbulbs are connected via WiFi expect a little latency. It's about the same as controlling it from the LIFX App (my experience has been 2 seconds)
 - This has only been tested on a [LIFX Color A19](https://www.lifx.com/collections/lamps-and-pendants/products/lifx-color-a19) bulb
 - The name's of each available lightbulb on the account will be logged to the console when you first run the Node file. To see this list, scroll to the top of the console. This can be used for inputting strings to '***light1name***' variables
 
