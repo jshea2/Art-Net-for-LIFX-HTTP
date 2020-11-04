@@ -19,10 +19,10 @@ var receiver = dmxnet.newReceiver({
 //Create new lifx instance
 const lifx = new Lifx();
 //Authenticate Lifx Token
-lifx.init({ appToken: 'ENTER KEY HERE' });
+lifx.init({ appToken: 'ENTER TOKEN HERE' });
 
 //ENTER NAME OF LIGHTS HERE
-let light1name = ''
+let light1name = 'Wall Light'//Example
 let light2name = ''
 let light3name = ''
 let light4name = ''
@@ -57,7 +57,7 @@ async function processLastRequest() {
   if (!fixture1) {
     //Get All Lights
     const lights = await lifx.get.all();
-    //console.log(lights)
+    lights.forEach(i => console.log(i.label))
 
     //Find the Light (UN-COMMENT TO ADD MORE LIGHTS)
     //Fixture 1
@@ -93,7 +93,7 @@ async function processLastRequest() {
     //   return light.label === light8name;
     // });
 
-    //UN_COMMENT TO ADD MORE LIGHTS
+    //UN-COMMENT TO ADD MORE LIGHTS
     fixture1 = bulb1;
     // fixture2 = bulb2;
     // fixture3 = bulb3;
