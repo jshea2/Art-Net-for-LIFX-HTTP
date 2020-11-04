@@ -52,7 +52,7 @@
    - Login to your [LIFX Cloud Account](https://cloud.lifx.com/settings)
    - Generate New Token
   
-  - Input Your Lightbulb's Name:
+  - Input Each Lightbulb's Name:
     ```javascript
     //ENTER NAME OF LIGHTS HERE
     let light1name = 'Wall Light'//Example
