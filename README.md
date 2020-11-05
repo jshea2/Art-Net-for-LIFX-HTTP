@@ -4,6 +4,13 @@
 ### Requires:
 
 ### [Node.js](https://nodejs.org/), [lifxjs](https://www.npmjs.com/package/lifxjs), [dmxnet](https://www.npmjs.com/package/dmxnet), [Art-Net Software](https://dmxking.com/control-software), and a [LIFX Color Lightbulb](https://www.lifx.com/collections/lamps-and-pendants/products/lifx-color-a19)
+#
+### Example Video using Art-Net from Qlab to Node.js relaying commands to LIFX API:
+
+
+<a href="https://youtu.be/7bathbsMiDU
+" target="_blank"><img src="http://img.youtube.com/vi/7bathbsMiDU/0.jpg" 
+alt="Node-OBSosc Example Video" width="300" height="180" border="10" /></a>
 
 #
 ## LIFX Setup:
