@@ -10,7 +10,7 @@
 
 <a href="https://youtu.be/7bathbsMiDU
 " target="_blank"><img src="http://img.youtube.com/vi/7bathbsMiDU/0.jpg" 
-alt="Node-OBSosc Example Video" width="300" height="180" border="10" /></a>
+alt="NodeLifxArt-Net DEMO" width="300" height="180" border="10" /></a>
 
 #
 ## LIFX Setup:
