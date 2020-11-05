@@ -100,6 +100,8 @@ alt="NodeLifxArt-Net DEMO" width="300" height="180" border="10" /></a>
   // });
 ```
 -***This Is Currently Only Setup for **8** Lightbulbs***-
+
+- Save 'main.js' & Run node file in Terminal:  `npm start` [Enter]
 #
 ## Notes:
 
