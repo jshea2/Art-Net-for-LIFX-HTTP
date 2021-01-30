@@ -1,6 +1,10 @@
 # NodeLifxArt-Net
 ## Uses [Node.js](https://nodejs.org/) to Convert [Art-Net](https://art-net.org.uk/) Data into RGB Values for [LIFX API](https://api.developer.lifx.com/)
 #
+![LIFXArt-Netsmall](https://user-images.githubusercontent.com/70780576/106349690-d42f3200-6284-11eb-9c76-34aa2b7feee9.png)
+## [Standalone *'LIFX Art-Net App'* Now Available](https://github.com/jshea2/NodeLifxArt-Net/releases)
+
+
 ### Requires:
 
 ### [Node.js](https://nodejs.org/), [lifxjs](https://www.npmjs.com/package/lifxjs), [dmxnet](https://www.npmjs.com/package/dmxnet), [Art-Net Software](https://dmxking.com/control-software), and a [LIFX Color Lightbulb](https://www.lifx.com/collections/lamps-and-pendants/products/lifx-color-a19)
