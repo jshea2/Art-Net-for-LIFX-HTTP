@@ -46,11 +46,8 @@ Requires: Any [LIFX Color Bulb](https://www.lifx.com/pages/lightbulbs) & Any [Ar
 
 ## Notes:
 - Current workaround for "Clearing Patch" is to go to "View>Reload". This will reset everything, including re-inputting your Access Token.
-- The latency is usually around 1.5 seconds for LIFX Bulb response, because of how the API relays the data. I'm currently working on adding "Fast Mode", so commands will (hopefully) be received instantaneously.
 - Other features not available, but currently in the works:
    - Deleting "Patched" Bulbs
-   - Saving Show Patch File's
-   - Modifying Patch if patching from the same bulb, but different address
 
 Join the Discord server Community: 
 
