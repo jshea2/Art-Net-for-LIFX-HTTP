@@ -1,8 +1,9 @@
-# Lifx Art-Net
+# Art-Net for LIFX
 ## Standalone App that Converts [Art-Net](https://art-net.org.uk/) Data into RGB Values for [LIFX API](https://api.developer.lifx.com/)
 #
 ## [Setup and Download](https://github.com/jshea2/NodeLifxArt-Net/releases)
-![LIFXArt-Netsmall](https://user-images.githubusercontent.com/70780576/106349690-d42f3200-6284-11eb-9c76-34aa2b7feee9.png)
+![LIFXArt-Netapp_small](https://user-images.githubusercontent.com/70780576/109414960-cb587b80-796a-11eb-9b0b-ecd9d95ffbd3.png)
+
 
 
 ### Requires:
