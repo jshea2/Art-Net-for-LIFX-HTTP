@@ -47,6 +47,8 @@ Requires: Any [LIFX Color Bulb](https://www.lifx.com/pages/lightbulbs) & Any [Ar
    - *Fun Fact:* The Free version of QLab lets you do 16-channels, so you can control 5 LIFX fixtures separately
 
 ## Notes:
+
+### This Application is for the HTTP API (Over Internet). For LAN API (Local Network) with much faster response, check out [Art-Net for LIFX-LAN](https://github.com/jshea2/Art-Net-for-LIFX-LAN)
 - Current workaround for "Clearing Patch" is to go to "View>Reload". This will reset everything, including re-inputting your Access Token.
 - Other features not available, but currently in the works:
    - Deleting "Patched" Bulbs
