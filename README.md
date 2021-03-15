@@ -49,6 +49,10 @@ Requires: Any [LIFX Color Bulb](https://www.lifx.com/pages/lightbulbs) & Any [Ar
 ## Notes:
 
 ### This Application is for the HTTP API (Over Internet). For LAN API (Local Network) with much faster response, check out [Art-Net for LIFX-LAN](https://github.com/jshea2/Art-Net-for-LIFX-LAN)
+- A message request will only get sent to the LIFX HTTP API if there's a change in the Art-Net data
+- Keep in mind the HTTP API only accepts 120 messages per 60 seconds
+  - So if you have 4 LIFX bulbs patched and send a 0 count cue that's 4 messages.
+    - If that cue is a fade that's where the 'Latency Slider' helps limit the rate of messages sent if there's continuous change in Art-Net data.
 - Current workaround for "Clearing Patch" is to go to "View>Reload". This will reset everything, including re-inputting your Access Token.
 - Other features not available, but currently in the works:
    - Deleting "Patched" Bulbs
