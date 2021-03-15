@@ -51,10 +51,11 @@ Requires: Any [LIFX Color Bulb](https://www.lifx.com/pages/lightbulbs) & Any [Ar
 - Other features not available, but currently in the works:
    - Deleting "Patched" Bulbs
 
+## Support:
 Join the Discord server Community: 
 
 <a href="https://discord.gg/FJ79AKPgSk">
         <img src="https://img.shields.io/discord/308323056592486420?logo=discord"
             alt="chat on Discord"></a>
 
-# [Download "Art-Net for LIFX-HTTP" Now](https://github.com/jshea2/Art-Net-for-LIFX/releases)
+## [Download "Art-Net for LIFX-HTTP" Now](https://github.com/jshea2/Art-Net-for-LIFX/releases)
