@@ -1,7 +1,9 @@
-# Art-Net for LIFX
+# Art-Net for LIFX-HTTP
 ### Standalone App that Converts [Art-Net](https://art-net.org.uk/) Data into RGB Values for [LIFX API](https://api.developer.lifx.com/)
 #
-![LIFXArt-Netapp_small](https://user-images.githubusercontent.com/70780576/109415216-3f475380-796c-11eb-9a21-c7c5f5f3e326.png)
+
+<img width="175" alt="Screen Shot 2021-02-28 at 1 53 01 AM" src="https://user-images.githubusercontent.com/70780576/111094889-73d51680-84f9-11eb-9572-a4bf1b4c5e61.png">
+
 ## [Download Now](https://github.com/jshea2/Art-Net-for-LIFX/releases)
 Doing Virtual Zoom Productions? 
 Control LIFX Bulbs anywhere in the world from your lighting console/software 
@@ -13,7 +15,7 @@ Requires: Any [LIFX Color Bulb](https://www.lifx.com/pages/lightbulbs) & Any [Ar
    - If you're having trouble connecting refer to [LIFX Troubleshooting Website](https://support.lifx.com/hc/en-us/categories/200238164-Set-Up-Troubleshooting)
  - All LIFX Lightbulbs must be connected to the **SAME** Account
     - This also works in Multiple Locations on Different WiFi Networks (Remote Lighting Control for Theatre 😉)
-## Setting Up *'Art-Net for LIFX' App*'
+## Setting Up *'Art-Net for LIFX-HTTP' App*'
 
 <img width="317" alt="Screen Shot 2021-02-28 at 1 53 01 AM" src="https://user-images.githubusercontent.com/70780576/109415191-11faa580-796c-11eb-885a-1f18b6b8ed5d.png">
 
@@ -55,4 +57,4 @@ Join the Discord server Community:
         <img src="https://img.shields.io/discord/308323056592486420?logo=discord"
             alt="chat on Discord"></a>
 
-# [Download "Art-Net for LIFX" Now](https://github.com/jshea2/Art-Net-for-LIFX/releases)
+# [Download "Art-Net for LIFX-HTTP" Now](https://github.com/jshea2/Art-Net-for-LIFX/releases)
